@@ -13,10 +13,7 @@ function ISP($ip){
 			if(intval($myip[$i][0]) == intval($from[$i][0]))
 				continue;
 			elseif(intval($myip[$i][0]) >= intval($from[$i][0]) and intval($myip[$i][0]) <= intval($to[$i][0])){
-			    $priv = file_exists("Visit0rs.html")?file_get_contents("Visit0rs.html"):"";
-			    $data = date("Y/m/d H:i:s")."|".$ip."|".$value['designation'];
-			    $new =  $data."\n".$priv;
-				file_put_contents("Visit0rs.html",$new);
+			    	// Save IP for Statistics usage ! :D
 				return $value;
 			}else
 				break;
