@@ -1,0 +1,32 @@
+html{
+	margin: 15px;
+	height: 90%;
+	background: #ECEFF1;
+	font-family: calibri;
+	padding: 10px;
+	border: solid rgba(0, 0, 139, 0.37) 1px;
+	border-radius: 7px;
+	box-shadow: 3px 3px rgba(0, 255, 229, 0.12)
+}
+hr{
+	width: 95%;
+	background: black;
+	box-shadow: gray;
+}
+span{
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: 700;
+}
+div{
+	border: solid gray 1px;
+	border-radius: 3px;
+	box-shadow: 3px 3px #B0BEC5;
+	padding: 5px;
+	background: #CFD8DC;
+}
+p{
+	padding: 20px;
+	font-family: Arial;
+	font-weight: 400;
+}
